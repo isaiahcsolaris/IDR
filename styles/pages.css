@@ -1,0 +1,36 @@
+.updates{
+  color: black;
+  padding: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.fqas{
+  background-color: white;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.QnA{
+  width: 400px;
+  margin-left: 50px;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.question{
+  font-size: 25px;
+}
+
+
+

@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+}
+
+.mobile-navigation-bar{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: fit-content;
+  display: none;
+  position: fixed;
+  top: 5px;
+}
+
+#smenu{
+  margin: 10px;
+  text-align: center;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#smenu a, link{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+#smenu a:visited{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+#close-menu{
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top:3px;
+  display: none;
+}
+
+#c-wallet{
+  background-color: rgb(4, 0, 255);
+  padding:10px ;
+  border-radius: 30px;
+  margin-left: 20px;
+  position: absolute;
+  right: 80px;
+  top:5px;
+  font-size: 20px;
+  font-weight: 700;
+  display: none;
+}
+
+#c-wallet a,link{
+  color: white;
+  text-decoration: none;
+}
+
+#c-wallet a:visited{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#c-wallet:hover{
+  background-color: rgb(4, 0, 255);
+}
+
+.mobile-nav{
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+
+@media (max-width:730px){
+  .navigation-bar{
+    display:none;
+  }
+
+  #close-menu{
+    display:block;
+  }
+
+  #c-wallet{
+    display: block;
+  }
+
+  .logo-cont{
+    margin-left: -50px;
+    width: 270px;
+  }
+
+  .logo{
+    width: 100%;
+  }
+
+  .name{
+    font-size:40px ;
+    margin-left: 90px;
+  }
+
+  #ss-link{
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight:700;
+  }
+  
+  .links>div{
+    width: 50px;
+    margin: 15px;
+    margin-top: 30px;
+  }
+  
+  .limg{
+    width: 100%;
+    border-radius: 35px;
+  }
+
+  .roadmap-box{
+    background-color: rgb(133, 138, 138);
+  }
+}

@@ -1,0 +1,55 @@
+.navigation-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.803);
+  background-attachment: fixed;
+  background-clip: border-box;
+  height: 40px;
+  position: sticky;
+  top:0;
+}
+
+.menu{
+  margin: 5px;
+  padding: 11px;
+}
+
+.menu:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu a, link{
+  color: goldenrod;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.menu a:visited{
+  color: goldenrod;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.c-wallet{
+  background-color: rgb(4, 0, 255);
+  padding:10px ;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.c-wallet a,link{
+  color: white;
+}
+
+.c-wallet a:visited{
+  color: white;
+  text-align: center;
+}
+
+.c-wallet:hover{
+  background-color: rgb(4, 0, 255);
+}
+

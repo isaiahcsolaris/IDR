@@ -1,0 +1,314 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, Arial;
+  color:white;
+  background-image:url("../images.jpeg") ;
+  background-clip: border-box;
+  background-attachment: fixed;
+}
+
+.first-container{
+  background-color: rgba(0, 0, 0, 0.995);
+}
+
+.logo-cont{
+  background-color: rgb(0, 0, 0);
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 10%;
+}
+
+.logo{
+  width: 100%;
+  
+}
+
+.name{
+  color: rgb(0, 4, 255);
+  font-family: Ubuntu;
+  font-size: 70px;
+  font-weight: 700;
+  margin-left: 70px;
+}
+
+.welcome-box{
+  background-color: rgba(0, 0, 0);
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  color: gold;
+  padding-left: 50px;
+}
+
+.expl{
+  background-color:rgba(0, 0, 0);
+  padding: 50px;
+  font-size: 20px;
+}
+
+.links{
+  display: flex;
+  background-color: rgba(255, 255, 255);
+  margin-top:10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 50px;
+}
+
+#ss-link{
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight:700;
+}
+
+.links>div{
+  width: 70px;
+  margin: 15px;
+
+}
+
+.limg{
+  width: 100%;
+  border-radius: 35px;
+
+}
+
+.airdrop{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#address{
+  padding: 20px;
+  color: rgb(252, 180, 0);
+  border: 2px solid rgb(39, 38, 38);
+  width: 500px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.about-box{
+  background-color: rgba(0, 0, 0);
+  padding: 10px;
+  border-top: 15px solid goldenrod;
+  border-bottom:15px solid goldenrod ;
+  margin-bottom: 10px;
+}
+
+.idan-title{
+  font-size: 30px;
+  padding-left: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.idan-cont{
+  display: flex;
+}
+
+.idan-pic-cont{
+  width: 400px;
+  background-color: black;
+  padding: 10px;
+}
+
+#idan-pic{
+  width: 100%;
+}
+
+.idan-expl{
+  width: 800px;
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.mission-box{
+  background-color: rgba(245, 245, 245);
+  padding: 10px;
+  border-top: 15px solid goldenrod;
+  border-bottom:15px solid goldenrod ;
+  margin-bottom: 10px;
+}
+
+.mission{
+  font-size: 40px;
+  padding-left: 50px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+.mission-expl{
+  width: 800px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.idan-pic-cont2{
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.tokenomics-box{
+  background-color: rgba(0, 0, 0);
+  padding: 10px;
+  border-top: 15px solid goldenrod;
+  border-bottom:15px solid goldenrod ;
+  margin-bottom: 10px;
+}
+
+.t-title{
+  font-size: 40px;
+  padding-left: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.t-pic-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#t-pic-box{
+  width: 700px;
+}
+
+.t-pic{
+  width: 100%;
+}
+
+.t-list-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tokenomics-list{
+  width: 900px;
+  font-size: 20px;
+}
+
+.roadmap-box{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-top: 15px solid goldenrod;
+  border-bottom:15px solid goldenrod ;
+  margin-bottom: 10px;
+}
+
+.r-title{
+  font-size: 40px;
+  padding-left: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+.roadmap-cont{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.phase-box{
+  width: 250px;
+  background-color: black;
+  margin: 2px;
+  padding: 40px;
+  color: goldenrod;
+  border-radius:30px ;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.phase-name{
+  background-color: rgb(64, 133, 55);
+  text-align: center;
+  padding: 20px;
+  margin-top: -40px;
+  color: white ;
+  margin-right: -40px;
+  margin-left: -40px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.p2e-box{
+  background-color: rgba(0, 0, 0);
+  padding: 10px;
+  border-top: 15px solid goldenrod;
+  border-bottom:15px solid goldenrod ;
+  margin-bottom: 10px;
+}
+
+.p2e{
+  font-size: 40px;
+  padding-left: 50px;
+  font-weight: 700;
+  text-align: center;
+  color:white;
+}
+
+.p2e-expl{
+  width: 800px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.idan-pic-cont2-p2e{
+  width: 400px;
+  background-color: black;
+  padding: 10px;
+}
+
+.last{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding: 30px;
+  border-top: 12px solid rgb(0, 0, 0);
+  border-bottom:12px solid rgb(0, 0, 0) ;
+}
+
+.last2{
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.foot-img{
+  width: 100%;
+}
+
+.footer{
+  background-color: white;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid grey;
+  border-right: none;
+  border-left: none;
+}
+
