@@ -126,6 +126,10 @@
   }
 
 .fqas{
-  margin-left:0px;
-  width:200px;
+  width:100%;
+}
+
+.QnA{
+  width:95%;
+  margin-left:0;
 }
