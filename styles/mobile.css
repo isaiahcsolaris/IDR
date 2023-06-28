@@ -137,14 +137,17 @@
 .idan-cont{
   display:flex;
   flex-direction:column;
+  width:100%;
 }
 
 .idan-pic-cont{
   background-color:transparent;
+  width:100%;
 }
   
 .idan-pic-cont2{
   background-color:transparent;
+  width:100%;
 } 
 
 .first-container{
@@ -165,22 +168,46 @@
 
 .about-box{
   width:100%;
+}
+
+.idan-title{
+  width:97%;
 } 
 
 .idan-expl{
-  width:100%;
+  width:95%;
 }
 
 .mission-box{
   width:100%;
 }
 
-.mission-expl{
+.mission{
+  width:97%;
+}
+
+.idan-cont{
   width:100%;
+}
+
+.mission-expl{
+  width:95%;
 } 
 
 .tokenomics-box{
   width:100%;
+}
+
+#t-pic-box{
+  width:100%;
+}
+
+.t-title{
+  width:97%;
+}
+
+.t-pic-cont{
+  width:95%;
 }
 
 #t-pic-box{
@@ -203,6 +230,10 @@
   width:100%;
 }
 
+.r-title{
+  width:97%;
+}
+
 .roadmap-cont{
   width:100%;
 }
@@ -211,6 +242,9 @@
   width:100%;
 }
 
+.p2e{
+ width:97%; 
+ }
 .p2e-expl{
   width:100%;
 }
@@ -219,11 +253,19 @@
   width:100%;
 }
 
+#idan-pic{
+  width:98%;
+} 
+
 .last{
   width:100%;
 }
 
 .last2{
+  width:50%;
+}
+
+.foot-img{
   width:100%;
 }
 
