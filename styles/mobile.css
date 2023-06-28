@@ -133,3 +133,18 @@
   width:95%;
   margin-left:0;
 }
+
+.idan-cont{
+  display:flex;
+  flex-direction:column;
+}
+
+.idan-pic-cont{
+  background-color:transparent;
+}
+  
+.idan-pic-cont2{
+  background-color:transparent;
+} 
+
+} 
