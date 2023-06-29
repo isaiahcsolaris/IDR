@@ -79,10 +79,13 @@
 
 @media (max-width:730px){
   *{
-    box-sizing:border-box;
+    box-sizing: border-box;
     padding-left:0px;
     padding-right:0px;
+    margin-left:0px;
+    margin-left:0px;
   } 
+  
   .navigation-bar{
     display:none;
   }
